@@ -1,11 +1,16 @@
-var maxComic
-var currentComic
+//Definierar globala variabler för nuvarande och största comic nummer
+var maxComic = -1;
+var currentComic = -1;
 
 window.onload = function(){
     //hämta senaste comic
     getComic('latest');
     //sätter funktionalitet för nav knappar
-
+    document.getElementById('first').addEventListener('click',function(){
+        if(currentComic!=1){
+            getComic(1);
+        }
+    })
 }
 
 function getComic(which){
@@ -35,4 +40,6 @@ function getComic(which){
         })
 }
 
-function appendComic(data){}
+function appendComic(data){
+    
+}

@@ -1,0 +1,82 @@
+body {
+    background-color: blueviolet;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: white;
+}
+
+header {
+    background-color: coral; /* Complementing color */
+    margin: 20px auto;
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    background-color: aqua;
+    color: black; /* Darker text color for better readability */
+    margin: 20px auto;
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: coral; /* Complementing color */
+    margin: 20px auto;
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+li {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    border: 5px solid black;
+    border-radius: 5px;
+    background-color: grey;
+    color: white;
+}
+
+li:hover {
+    background-color: darkgrey;
+    cursor: pointer;
+}
+
+h1, h3 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+time {
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+p {
+    text-align: center;
+    margin-top: 5px;
+}
+
+figure {
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+
+figcaption, img {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+ul {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
